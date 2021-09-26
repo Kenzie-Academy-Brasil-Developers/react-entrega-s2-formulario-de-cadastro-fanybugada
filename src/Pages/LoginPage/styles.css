@@ -1,0 +1,23 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 85vw;
+  height: 420px;
+  box-shadow: 1px 0px 20px 2px slategrey;
+  margin: 22vw auto;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #3f51b596;
+}
+
+.loginButton {
+  margin-top: 20px !important;
+}
+
+@media screen and (min-width: 768px) {
+  .formContainer {
+    width: 45vw;
+  }
+}
